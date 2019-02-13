@@ -1,0 +1,40 @@
+{
+  "name": "angular-numberic-input",
+  "description": "A number input with minus/plus signs",
+  "version": "1.0.0",
+  "author": "msamarehshafeei@gmail.com",
+  "license": "MIT",
+  "homepage": "https://github.com/moein-shafiei/AngularNumberInput#readme",
+  "main": "Src/components/index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/moein-shafiei/AngularNumberInput.git"
+  },
+  "keywords": [
+    "Angular",
+    "2+",
+    "number",
+    "input"
+  ],
+  "bugs": {
+    "url": "https://github.com/moein-shafiei.AngularNumberInput/issues"
+  },
+  "scripts": {
+    "watch": "tsc -p src -w",
+    "build": "rm -rf lib && tsc -p src"
+  },
+  "private": false,
+  "dependencies": {
+    "@angular/common": "^2.4.4",
+    "@angular/compiler": "^2.4.4",
+    "@angular/core": "^2.4.4",
+    "@angular/forms": "^2.4.4",
+    "@angular/platform-browser": "^2.4.4",
+    "@angular/platform-browser-dynamic": "^2.4.4",
+    "rxjs": "^5.0.1",
+    "zone.js": "^0.7.2"
+  },
+  "devDependencies": {
+    "typescript": "~2.1.5"
+  }
+}
