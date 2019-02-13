@@ -5,7 +5,7 @@
   "author": "msamarehshafeei@gmail.com",
   "license": "MIT",
   "homepage": "https://github.com/moein-shafiei/AngularNumberInput#readme",
-  "main": "Src/components/index.js",
+  "main": "Src",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/moein-shafiei/AngularNumberInput.git"
