@@ -1,0 +1,9 @@
+<div class="">
+  <input [disabled]="disabled" [value]="_value" placeholder="*" (change)="onChange($event)"
+         (keyup)="onKyUp($event)" type="number" pattern="(\d*)" min="{{min}}" max="{{max}}" />
+</div>
+
+<div class="input-group-btn">
+  <button class="btn button-ancestor down" type="button" (click)="decreaseValue()"></button>
+  <button class="btn button-ancestor up" type="button" (click)="increaseValue()"></button>
+</div>
