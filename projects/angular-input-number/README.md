@@ -1,24 +1,36 @@
-# AngularInputNumber
+[![GitHub](https://img.shields.io/github/license/mashape/apistatus.svg)](https://opensource.org/licenses/MIT)
+[![NPM version](https://img.shields.io/npm/v/angular-input-number.svg)](https://www.npmjs.com/package/angular-input-number)
 
-This library was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.2.
 
-## Code scaffolding
+# Angular Number Input
 
-Run `ng generate component component-name --project angular-input-number` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module --project angular-input-number`.
-> Note: Don't forget to add `--project angular-input-number` or else it will be added to the default project in your `angular.json` file. 
+This is an npm module created for input number with customized images for up and dow buttoms
 
-## Build
+<img src="doc/demo.JPG"/>
 
-Run `ng build angular-input-number` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Installation
 
-## Publishing
+Install the package with NPM:
 
-After building your library with `ng build angular-input-number`, go to the dist folder `cd dist/angular-input-number` and run `npm publish`.
+```bash
+$ npm i angular-input-number
+```
 
-## Running unit tests
+## Usage
 
-Run `ng test angular-input-number` to execute the unit tests via [Karma](https://karma-runner.github.io).
+After installing the component as a dependency, import it into you Angular module.
 
-## Further help
+```js
+import { AngularInputNumberModule } from 'angular-input-number';
 
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI README](https://github.com/angular/angular-cli/blob/master/README.md).
+@NgModule({
+  imports: [AngularInputNumberModule]
+})
+```
+
+Afterwards, you can use the component within your templates.
+
+```html
+<lib-angular-input-number></lib-angular-input-number>
+```
+
