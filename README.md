@@ -6,7 +6,7 @@
 
 This is an npm module created for input number with customized images for up and dow buttoms
 
-<img src="docs/demo.gif"/>
+<img src="docs/demo.JPG"/>
 
 ## Installation
 
